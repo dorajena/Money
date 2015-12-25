@@ -14,6 +14,7 @@
 		CBBE1ACC1C2DD0F40027C0B8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBBE1ACB1C2DD0F40027C0B8 /* Images.xcassets */; };
 		CBBE1ACF1C2DD0F40027C0B8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBBE1ACD1C2DD0F40027C0B8 /* LaunchScreen.xib */; };
 		CBBE1ADB1C2DD0F40027C0B8 /* MoneyTrackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBE1ADA1C2DD0F40027C0B8 /* MoneyTrackTests.swift */; };
+		CBBE1AE61C2DD69B0027C0B8 /* rupeeImage.png in Resources */ = {isa = PBXBuildFile; fileRef = CBBE1AE51C2DD69B0027C0B8 /* rupeeImage.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		CBBE1AD41C2DD0F40027C0B8 /* MoneyTrackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneyTrackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBBE1AD91C2DD0F40027C0B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBBE1ADA1C2DD0F40027C0B8 /* MoneyTrackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyTrackTests.swift; sourceTree = "<group>"; };
+		CBBE1AE51C2DD69B0027C0B8 /* rupeeImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rupeeImage.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		CBBE1ABE1C2DD0F40027C0B8 /* MoneyTrack */ = {
 			isa = PBXGroup;
 			children = (
+				CBBE1AE41C2DD68A0027C0B8 /* Image */,
 				CBBE1AC11C2DD0F40027C0B8 /* AppDelegate.swift */,
 				CBBE1AC61C2DD0F40027C0B8 /* ViewController.swift */,
 				CBBE1AC81C2DD0F40027C0B8 /* Main.storyboard */,
@@ -113,6 +116,14 @@
 				CBBE1AD91C2DD0F40027C0B8 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CBBE1AE41C2DD68A0027C0B8 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				CBBE1AE51C2DD69B0027C0B8 /* rupeeImage.png */,
+			);
+			name = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBBE1ACA1C2DD0F40027C0B8 /* Main.storyboard in Resources */,
+				CBBE1AE61C2DD69B0027C0B8 /* rupeeImage.png in Resources */,
 				CBBE1ACF1C2DD0F40027C0B8 /* LaunchScreen.xib in Resources */,
 				CBBE1ACC1C2DD0F40027C0B8 /* Images.xcassets in Resources */,
 			);
@@ -415,6 +427,7 @@
 				CBBE1AE01C2DD0F40027C0B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBBE1AE11C2DD0F40027C0B8 /* Build configuration list for PBXNativeTarget "MoneyTrackTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +436,7 @@
 				CBBE1AE31C2DD0F40027C0B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

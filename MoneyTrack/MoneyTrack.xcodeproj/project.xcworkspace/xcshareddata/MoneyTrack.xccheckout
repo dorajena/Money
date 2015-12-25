@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>0D329BC8-AF13-46D0-AC28-6CB30BA85131</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>MoneyTrack</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>22824AD4AF12E004AF9C561B8D4EA7160BE6D828</key>
 		<string>https://github.com/dorajena/Money.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>MoneyTrack/MoneyTrack.xcodeproj/project.xcworkspace</string>
+	<string>MoneyTrack/MoneyTrack.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>22824AD4AF12E004AF9C561B8D4EA7160BE6D828</key>
