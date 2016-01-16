@@ -33,17 +33,26 @@ class BaseViewController: UIViewController {
             self.view.addSubview(dcsController.view)
             dcsController.didMoveToParentViewController(self)
         }*/
+
+        let navHeight = self.navigationController?.navigationBar.frame.size.height
+
+        let dcsController = ParentViewController()
+        addChildViewController(dcsController)
+        dcsController.view!.frame = CGRectMake(0,navHeight!+20,CGRectGetWidth(self.view.frame)/2,CGRectGetHeight(self.view.frame))
+        self.view.addSubview(dcsController.view)
+        dcsController.didMoveToParentViewController(self)
+
+
+//       let eVc = ExpendViewController()
+//        eVc.view!.frame = CGRectMake(0,0,CGRectGetWidth(self.view.frame)/2,CGRectGetHeight(self.view.frame))
+//        self.view.addSubview(eVc.view)
+//        eVc.didMoveToParentViewController(self)
         
-       let eVc = ExpendViewController()
-        eVc.view!.frame = CGRectMake(0,0,CGRectGetWidth(self.view.frame)/2,CGRectGetHeight(self.view.frame))
-        self.view.addSubview(eVc.view)
-        eVc.didMoveToParentViewController(self)
         
-        
-        let dcsVc = DCSViewController()
-        dcsVc.view!.frame = CGRectMake(CGRectGetWidth(self.view.frame)/2,0,CGRectGetWidth(self.view.frame)/2,CGRectGetHeight(self.view.frame))
-        self.view.addSubview(dcsVc.view)
-        dcsVc.didMoveToParentViewController(self)
+//        let dcsVc = DCSViewController()
+//        dcsVc.view!.frame = CGRectMake(CGRectGetWidth(self.view.frame)/2,navHeight!+20,CGRectGetWidth(self.view.frame)/2,CGRectGetHeight(self.view.frame))
+//        self.view.addSubview(dcsVc.view)
+//        dcsVc.didMoveToParentViewController(self)
 
     }
 

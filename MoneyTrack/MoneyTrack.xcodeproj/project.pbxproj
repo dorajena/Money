@@ -11,6 +11,9 @@
 		CB953D5A1C4A68E00044A418 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB953D591C4A68E00044A418 /* BaseViewController.swift */; };
 		CB953D5D1C4A6A340044A418 /* ExpendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB953D5C1C4A6A340044A418 /* ExpendViewController.swift */; };
 		CB953D5F1C4A6A4F0044A418 /* DCSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB953D5E1C4A6A4F0044A418 /* DCSViewController.swift */; };
+		CB953D631C4A91580044A418 /* TableViewItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB953D611C4A91580044A418 /* TableViewItemCell.swift */; };
+		CB953D641C4A91580044A418 /* TableViewItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB953D621C4A91580044A418 /* TableViewItemCell.xib */; };
+		CB953D661C4A97D20044A418 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB953D651C4A97D20044A418 /* Item.swift */; };
 		CBBE1AC21C2DD0F40027C0B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBE1AC11C2DD0F40027C0B8 /* AppDelegate.swift */; };
 		CBBE1AC51C2DD0F40027C0B8 /* MoneyTrack.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CBBE1AC31C2DD0F40027C0B8 /* MoneyTrack.xcdatamodeld */; };
 		CBBE1AC71C2DD0F40027C0B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBE1AC61C2DD0F40027C0B8 /* ViewController.swift */; };
@@ -36,6 +39,9 @@
 		CB953D591C4A68E00044A418 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		CB953D5C1C4A6A340044A418 /* ExpendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpendViewController.swift; sourceTree = "<group>"; };
 		CB953D5E1C4A6A4F0044A418 /* DCSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DCSViewController.swift; sourceTree = "<group>"; };
+		CB953D611C4A91580044A418 /* TableViewItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewItemCell.swift; sourceTree = "<group>"; };
+		CB953D621C4A91580044A418 /* TableViewItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewItemCell.xib; sourceTree = "<group>"; };
+		CB953D651C4A97D20044A418 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		CBBE1ABC1C2DD0F40027C0B8 /* MoneyTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBBE1AC01C2DD0F40027C0B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBBE1AC11C2DD0F40027C0B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +86,16 @@
 			name = ViewController;
 			sourceTree = "<group>";
 		};
+		CB953D601C4A911B0044A418 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				CB953D611C4A91580044A418 /* TableViewItemCell.swift */,
+				CB953D621C4A91580044A418 /* TableViewItemCell.xib */,
+				CB953D651C4A97D20044A418 /* Item.swift */,
+			);
+			name = CustomCell;
+			sourceTree = "<group>";
+		};
 		CBBE1AB31C2DD0F40027C0B8 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +117,7 @@
 		CBBE1ABE1C2DD0F40027C0B8 /* MoneyTrack */ = {
 			isa = PBXGroup;
 			children = (
+				CB953D601C4A911B0044A418 /* CustomCell */,
 				CB953D5B1C4A69500044A418 /* ViewController */,
 				CBBE1AE41C2DD68A0027C0B8 /* Image */,
 				CBBE1AC11C2DD0F40027C0B8 /* AppDelegate.swift */,
@@ -232,6 +249,7 @@
 				CBBE1AE61C2DD69B0027C0B8 /* rupeeImage.png in Resources */,
 				CBBE1ACF1C2DD0F40027C0B8 /* LaunchScreen.xib in Resources */,
 				CBBE1ACC1C2DD0F40027C0B8 /* Images.xcassets in Resources */,
+				CB953D641C4A91580044A418 /* TableViewItemCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,9 +268,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB953D5D1C4A6A340044A418 /* ExpendViewController.swift in Sources */,
+				CB953D661C4A97D20044A418 /* Item.swift in Sources */,
 				CB953D5A1C4A68E00044A418 /* BaseViewController.swift in Sources */,
 				CBBE1AC71C2DD0F40027C0B8 /* ViewController.swift in Sources */,
 				CBBE1AC51C2DD0F40027C0B8 /* MoneyTrack.xcdatamodeld in Sources */,
+				CB953D631C4A91580044A418 /* TableViewItemCell.swift in Sources */,
 				CB953D5F1C4A6A4F0044A418 /* DCSViewController.swift in Sources */,
 				CB953D581C4A61540044A418 /* ParentViewController.swift in Sources */,
 				CBBE1AC21C2DD0F40027C0B8 /* AppDelegate.swift in Sources */,
